@@ -11,6 +11,11 @@ body {
 .navbar {
   background-color: var(--secondary-color);
 }
+.navbar .nav-logo{
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
 /* Start Landing */
 .landing {
   padding-top: 60px;
