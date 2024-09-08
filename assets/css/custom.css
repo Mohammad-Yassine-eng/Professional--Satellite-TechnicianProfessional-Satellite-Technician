@@ -34,6 +34,10 @@ body {
   color: black;
   background-color: #06335f60; 
 }
+.landing .fa-whatsapp{
+  color: rgb(16, 129, 16);
+}
+
 
 .landing .mybtn2 a{
   color: black;
@@ -41,6 +45,9 @@ body {
 }
 .mybtn2:hover{
   color: var(--main-color);
+}
+.landing .fa-whatsapp:hover{
+  color: white;
 }
 .land-text{
   width: 455px;
