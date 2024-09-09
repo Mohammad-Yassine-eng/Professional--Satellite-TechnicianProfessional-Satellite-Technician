@@ -113,7 +113,6 @@ body {
 .contact {
   padding-top: 60px;
   background-color: var(--main-color);
-  min-height: calc(100vh - 70px);
 }
 .contact .info {
   padding-top: 60px;
