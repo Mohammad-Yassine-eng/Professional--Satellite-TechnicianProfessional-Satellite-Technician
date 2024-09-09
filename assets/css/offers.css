@@ -1,0 +1,32 @@
+:root {
+  --main-color: #ddf2fa;
+  --secondary-color: #06325f;
+  --third-color: #ff9900;
+  --section-color: #4abfdf;
+}
+body {
+  background-color: var(--section-color);
+  font-family: "Fustat", sans-serif;
+}
+.special-heading{
+    margin-top: 70px;
+}
+.features .icon-holder {
+  height: 200px;
+  text-align: center;
+}
+.features .icon-holder i {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number {
+  font-size: 8rem;
+  color: var(--section-color);
+}
+.features .icon-holder .icon {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+.features .feat h4 {
+  color: var(--secondary-color);
+}

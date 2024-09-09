@@ -23,37 +23,21 @@ body {
   background-color: var(--main-color);
   min-height: calc(100vh - 70px);
 }
-.landing .mybtn1{
-  background-color: var(--secondary-color);
-  color: var(--main-color);
-  font-weight: bolder;
-  border: var(--secondary-color);
-}
-
-.mybtn1:hover {
-  color: black;
-  background-color: #06335f60; 
-}
-.landing .fa-whatsapp{
-  color: rgb(16, 129, 16);
-}
-
-
 .landing .mybtn2 a{
   color: black;
   text-decoration: none;
 }
-.mybtn2:hover{
-  color: var(--main-color);
+.mybtn2{
+  font-weight: bolder;
+    padding: 0.5rem 1rem;
 }
-.landing .fa-whatsapp:hover{
-  color: white;
-}
-.land-text{
+
+.extra{
+  text-align: center;
   width: 455px;
 }
 @media (max-width:540px){
-  .land-text{
+  .extra{
     width: 300px;
   }
 }
@@ -126,6 +110,7 @@ body {
 .contact {
   padding-top: 60px;
   background-color: var(--main-color);
+  min-height: calc(100vh - 70px);
 }
 .contact .info {
   padding-top: 60px;
