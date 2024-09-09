@@ -49,6 +49,9 @@ body {
   font-weight: bolder;
   padding: 0.5rem 1rem;
 }
+.fa-fire{
+  color: var(--third-color);
+}
 .mybtn:hover {
   color: black;
   background-color: #06335f60;
